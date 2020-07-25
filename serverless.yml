@@ -62,7 +62,7 @@ functions:
         method: get
         cors: true
         authorizer: aws_iam
- list:
+  list:
     # Defines an HTTP API endpoint that calls the main function in list.js
     # - path: url path is /notes
     # - method: GET request
@@ -106,7 +106,7 @@ functions:
           method: post
           cors: true
           authorizer: aws_iam
-          
+
 # Create our resources with separate CloudFormation templates
 resources:
   # API Gateway Errors
